@@ -1,4 +1,6 @@
-Ingreso al repositorio de la universidad nacional de Piura  escrapeando la informacion :
+##########################
+Ingreso al repositorio de la universidad nacional de Piura  escrapeando la informacion:
+
 Planificacion del trabajo grupal 
 Inspeccion de las paginas del repositorio.unp.edu.pe 
 Codificando en jupyter noteboook.
@@ -11,10 +13,23 @@ Extraer la información de la página de universidad de Piura link (https://repo
 - Resumen 
 - Año
 #########################
-Automatización de la descarga de la información pediada dentro del repositorio
+Automatización de la descarga de la información pediada dentro del repositorio:
 
 -Se logro automatizar la descarga de los link en la pagina de la U.N.P(universidad nacional de piura)
 -tuvimos problemas en los autores al momento de guardar toda la informacion escrapeada en el  data frame ya que en algunas tesis tenia mas de un autor
 -Al momento de crear el archivo csv, hay que tomar encuenta que para habrir el archivo csv correctamen hay que entrar a la funcion datos dentro del excel 
 luego ir hacia obtener datos y luego ir hacia importa el archivo para que la tabla sea mas dinamica.
 
+########################
+Estructuración de la información descargada:
+
+Uso de BeautifulSoup , pandas  y funciones de texto para estructurar la informacion
+ Estructurando el data frame se lo extraer de la pagina (https://repositorio.unp.edu.pe/handle/UNP/1304/recent-submissions?offset=0) con la informacion :
+- Institución (universidad) 
+- Título de la tesis 
+- Nombre del tesista 
+- Grado (‘para obtener el grado de:’ … bachiller, ingeniero, licenciado, maestro, doctor, etc) 
+- Nombre del asesor(es) 
+- Resumen 
+- Año
+Presentacion de la informacion estructurada datos_tabla en un csv.
