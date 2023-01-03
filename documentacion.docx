@@ -1,0 +1,12 @@
+Planificacion del trabajo grupal 
+Inspeccion de las paginas del repositorio.unp.edu.pe 
+Codificando en jupyter noteboook.
+Extraer la información de la página de universidad de Piura link (https://repositorio.unp.edu.pe/handle/UNP/1304/recent-submissions?offset=0) con la informacio:
+- Institución (universidad) 
+- Título de la tesis 
+- Nombre del tesista 
+- Grado (‘para obtener el grado de:’ … bachiller, ingeniero, licenciado, maestro, doctor, etc) 
+- Nombre del asesor(es) 
+- Resumen 
+- Año
+
